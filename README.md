@@ -17,12 +17,20 @@ The models created:
 4. binary BERT model + MLP + additional features
 
 The idea behind having a binary model is to have a model that recognises bullying with a higher certainty making the division between the types of cyberbullying not as important. 
-
-The architecture of the models 1 and 3:
-![The architecture of the models 1 and 3:](./architecture/BERT_arch.png)
-
-The acrchitecture of models 2 and 4:
-![The acrchitecture of models 2 and 4:](https://github.com/ana-v1/mdt2022/blob/main/architecture/BERT_add_arch.png)
+### Architecture
+#### Models 1 and 3:
+<img
+  src="./architecture/BERT_arch.png"
+  alt="Architecture"
+  title="The architecture of the models 1 and 3"
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
+#### Models 2 and 4:
+  
+  <img
+  src="./architecture/BERT_add_arch.png"
+  alt="Architecture"
+  title="The architecture of models 2 and 4:"
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
 
 Where n depends on the number of classes:
 - n=6 for models 1 and 2 
