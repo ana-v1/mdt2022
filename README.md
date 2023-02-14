@@ -8,3 +8,11 @@ The data the model predicts and learns on consits of users' tweets. The tweets a
 - religion
 - sex
 - other cyberbullying
+
+There are models created:
+- BERT model + MLP
+- BERT model + MLP + additional features
+- binary BERT model + MLP
+- binary BERT model + MLP + additional features
+
+The idea behind having a binary model is to have a model that recognises bullying with a higher certainty making the division between the types of cyberbullying not as important. 
