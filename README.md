@@ -18,10 +18,11 @@ The models created:
 
 The idea behind having a binary model is to have a model that recognises bullying with a higher certainty making the division between the types of cyberbullying not as important. 
 
-[The architecture of the models 1 and 3:]
-(./architecture/BERT_arch.png)
-[The acrchitecture of models 2 and 4:]
-(./architecture/BERT_add_arch.png)
+The architecture of the models 1 and 3:
+![The architecture of the models 1 and 3:](./architecture/BERT_arch.png)
+
+The acrchitecture of models 2 and 4:
+![The acrchitecture of models 2 and 4:](https://github.com/ana-v1/mdt2022/blob/main/architecture/BERT_add_arch.png)
 
 Where n depends on the number of classes:
 - n=6 for models 1 and 2 
