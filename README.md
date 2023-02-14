@@ -35,3 +35,19 @@ The idea behind having a binary model is to have a model that recognises bullyin
 Where n depends on the number of classes:
 - n=6 for models 1 and 2 
 - n=2 for models 3 and 4
+
+### Performance
+#### Training models on 6 classes
+<img
+  src="./architecture/eval_6_classes.png"
+  alt="Confusion Matrix 6 classes"
+  title=""
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
+#### Training models on 2 classes
+<img
+  src="./architecture/eval_6_classes.png"
+  alt="Confusion Matrix Binary"
+  title=""
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
+  
+As can be seen from the results additional features help the multiclasification problem. However, with the binary problem additional features did not help but completely confuse the model's training. 
