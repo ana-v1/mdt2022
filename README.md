@@ -1,8 +1,8 @@
 # Master's degree thesis - **Detection of Cyberbullying on Social Media**
 
-This repository contains the code for model training used in creation of my master's thesis. 
+This repository contains the code for model training used in the creation of my master's thesis. 
 
-The data the model predicts and learns on consits of users' tweets. The tweets are divided into 6 classes - not bullying, and bullying, which is further classified into types:
+The data the model predicts and learns on consists of users' tweets. The tweets are divided into 6 classes - not bullying, and bullying, which is further classified into types:
 - age
 - ethnicity
 - religion
@@ -36,7 +36,7 @@ Where n depends on the number of classes (dataset they are trained on):
 - n=6 for models 1 and 2 
 - n=2 for models 3 and 4
 
-For the binary models the dataset's original labeles with 5 different bullying types were labeled as 1 and not bullying as 0. The dataset was balanced prior to the training. 
+For the binary models the dataset's original labels with 5 different bullying types were labeled as 1 and not bullying as 0. The dataset was balanced prior to the training. 
 
 ### Performance
 #### Training models on 6 classes
@@ -52,7 +52,7 @@ For the binary models the dataset's original labeles with 5 different bullying t
   title=""
   style="display: inline-block; margin: 0 auto; max-width: 100px">
   
-As can be seen from the results additional features help the multiclasification problem. However, with the binary problem additional features did not help but completely confuse the model's training. 
+As can be seen from the results, additional features help the multi-class classification problem. However, with the binary problem additional features did not help but completely confuse the model's training. 
 
 Overall performance was tested for models 1-3 on both created datasets.
 <img
